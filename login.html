@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>log in</title>
+
+
+    <style>
+
+    	textarea:focus{
+    		background-color:lightblue;
+    		color:blue;
+    		font-size:20px;
+
+    	}
+    		body{
+    		text-align: center;
+    		background-color:grey;
+    	}
+
+    	.container{
+    		background-color: steelblue;
+    		color: white;
+    		font-size: 30px;
+    		margin-left:400px;
+    		margin-right:400px;
+    		border: 3px solid white;
+    		border-radius: 20px;
+    		height: 800px;
+
+
+    	}
+
+    	.buttons{
+    		background-color: steelblue;
+    		color: white;
+    		font-size: 30px;
+    		margin-left:400px;
+    		margin-right:400px;
+    		border: 3px solid white;
+    		border-radius: 20px;
+
+
+    		padding-left: 40px;
+    		padding-right: 40px;
+    		padding-top: 20px;
+    		padding-bottom: 20px;
+    		margin-right: 10px;
+    		margin-left: 10px;
+
+
+
+    	}
+
+    	div{
+    		padding: 5px;
+
+
+    	}
+
+    	input{
+    		padding-left: 30px;
+    		padding-right: 30px;
+    		padding-top: 20px;
+    		padding-bottom: 20px;
+    		margin-right: 10px;
+    		margin-left: 10px;
+
+
+
+
+    	}
+
+    	input:hover{
+    		background-color:blue;
+    		color:white;
+
+    	}
+
+
+    	input:focus{
+    		background-color:lightblue;
+    		color:blue;
+    		font-size:30px;
+
+
+
+    	}
+
+    	
+
+    	
+
+    	label{
+    		display: block;
+    		margin: 10px;
+    	}
+    	
+
+    	.sign:hover{
+    		color: white;
+    		border: 3px solid white;
+    		border-radius: 5px;
+    		text-decoration: none;
+    	}
+    	</style>
+   
+  </head>
+  <body>
+
+  	<div class="container">
+
+  		<div>
+  		<p>log in or <a class="sign" href="registration2.html">create an account</a></p>
+  	</div>
+  	<hr>
+
+  		<form action="" method="post">
+  	 	 <div>
+        <label>User Name:</label>
+        <input type="text" required placeholder="enter your name" name="user"/>
+      </div>
+      <br />
+
+
+      <div>
+        <label>Password:</label>
+        <input
+          type="password"
+          required
+          placeholder="enter your password"
+          name="pass"
+          minlength="10"
+          maxlength="20"
+        />
+    </div>
+    <br>
+
+
+
+        <div>
+        <label>Email:</label>
+        <input type="email" required placeholder="enter your email" name="mail" />
+      </div>
+
+      <br />
+
+
+
+        <hr />
+
+      <textarea name="subject" cols="40" rows="10" placeholder="your comment"></textarea>
+
+      <hr />
+
+      <div class="buttons">
+      <input type="reset" value="RESET" />
+      <input type="submit" value="LOG IN" />
+      <a class="sign" href="home.html">HOME</a>
+      </div>
+      <br />
+
+
+       </form>
+</div>
+
+  </body>
+  </html>
